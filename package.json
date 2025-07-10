@@ -1,7 +1,7 @@
 {
   "name": "teste_api_offset",
   "version": "1.0.0",
-  "description": "",
+  "description": "Este repositório tem como objetivo testar e validar se a API da Clint está retornando contatos duplicados entre as páginas quando utilizada com parâmetros de paginação (`offset`, `limit` e `page`).",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,6 +13,15 @@
   "dependencies": {
     "@api/clint-api": "file:.api/apis/clint-api",
     "dotenv": "^17.1.0",
+    "json2csv": "^6.0.0-alpha.2",
     "node-fetch": "^3.3.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosPiovesanJr/teste_api_offset.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CarlosPiovesanJr/teste_api_offset/issues"
+  },
+  "homepage": "https://github.com/CarlosPiovesanJr/teste_api_offset#readme"
 }
